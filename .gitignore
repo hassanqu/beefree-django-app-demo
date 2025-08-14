@@ -1,0 +1,51 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Django / SQLite
+*.sqlite3
+/db.sqlite3
+/staticfiles/
+/media/
+
+# Logs and reports
+*.log
+coverage.xml
+.coverage*
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Node (if present)
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+pip-log.txt
+pip-delete-this-directory.txt

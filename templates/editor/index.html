@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beefree SDK Django Demo</title>
+    <link rel="stylesheet" href="{% static 'editor/styles.css' %}">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome to My Beefree Django Demo</h1>
+      <a
+        class="docs-button"
+        href="https://docs.beefree.io/beefree-sdk"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Read the Docs
+      </a>
+    </header>
+
+    <main>
+      <div id="beefree-editor-container" class="editor-container"></div>
+      <div id="status" class="status"></div>
+    </main>
+
+    <script src="{% static 'editor/editor.js' %}" type="module"></script>
+  </body>
+  </html>
+
+
