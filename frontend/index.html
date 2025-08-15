@@ -1,11 +1,9 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Beefree SDK Django Demo</title>
-    <link rel="stylesheet" href="{% static 'css/editor.css' %}">
+    <title>Beefree SDK Django Demo - Development</title>
   </head>
   <body>
     <header class="header">
@@ -25,8 +23,6 @@
       <div id="status" class="status"></div>
     </main>
 
-    <script type="module" src="{% static 'js/editor.js' %}"></script>
+    <script type="module" src="/src/editor.js"></script>
   </body>
 </html>
-
-
