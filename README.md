@@ -25,34 +25,12 @@ git clone https://github.com/BeefreeSDK/beefree-django-app-demo.git
 cd Django-beefree-demo
 ```
 
-### 2. Set Up Python Environment
+### 2. Set Up Python Environment, Database Migrations & Frontend Build
 ```bash
-# Create virtual environment
-python3 -m venv .venv
-
-# Activate virtual environment
-# On macOS/Linux:
-source .venv/bin/activate
-# On Windows:
-.venv\Scripts\activate
-
-# Install Python dependencies
-pip install -r requirements.txt
+make setup
 ```
 
-### 3. Set Up Frontend Build
-```bash
-# Install npm dependencies
-npm install
-
-# Install Beefree SDK package
-npm install @beefree.io/sdk
-
-# Build frontend assets
-npm run build
-```
-
-### 4. Configure Environment Variables
+### 3. Configure Environment Variables
 Create a `.env` file in the project root:
 ```bash
 # Django settings
@@ -64,15 +42,9 @@ DJANGO_ALLOWED_HOSTS=*
 BEE_CLIENT_ID=your-bee-client-id
 BEE_CLIENT_SECRET=your-bee-client-secret
 ```
-
-### 5. Run Database Migrations
+### 4. Start the Application
 ```bash
-python manage.py migrate
-```
-
-### 6. Start the Application
-```bash
-python manage.py runserver
+make run
 ```
 
 Visit `http://localhost:8000/` to see the application!
